@@ -41,14 +41,33 @@
                 <p> Numero de Intentos: <i class="fa-solid fa-heart counterIcons"></i> <i class="fa-solid fa-heart counterIcons"></i> <i class="fa-solid fa-heart counterIcons"></i> </p>
                 <p> Intentos Fallidos: <i class="fa-solid fa-heart-crack counterIcons"></i> </p>
               </div>
-            </div>
+              <div class="col-12" style="text-align: center;">
+                <button type="button" class="btn btn-outline-success playButtons"><i class="fa-solid fa-play"></i></button>
+                <button type="button" class="btn btn-outline-danger playButtons"><i class="fa-solid fa-stop"></i></button>
+              </div>
 
+            </div>
           </div>
           <div class="col-6 game-words">
-            <p> Palabra a Adivinar</p>
+            <p style="text-align: center;"> Palabra a Adivinar</p>
+            <div class="container-fluid">
+              <div class="col-12" style="text-align: center;">
+                <h2 class="guessWord"> E_EMP_O</h2>
+              </div>
+              <p style="text-align: center; margin-top: 7%;"> Intento Pasado </p>
+              <div class="col-12" style="text-align: center;">
+                <h2 class="guessWord"> L </h2>
+              </div>
+            </div>
           </div>
           <div class="col-12 game-interaction">
             <p> Ingresar Intento</p>
+            <div class="input-group mb-3 guessGroup">
+              <input type="text" placeholder="Ingresa una letra o la palabra a adivinar" class="form-control inputGuess">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary guessButton" type="button">Ok</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
