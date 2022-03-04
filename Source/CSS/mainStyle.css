@@ -2,3 +2,36 @@
 body{
     margin: 0;
 }
+
+
+.cenfo-logo{
+    padding: 0 0 0 4.5rem;
+}
+
+.logo{
+    height:40%;
+    width: 82%;
+}
+
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-right: 10%;
+}
+
+.game-info{
+    border: 1px solid;
+}
+
+.game-words{
+    border: 1px solid;
+}
+
+.game-interaction{
+    border-top: 1px solid;
+}
+
+#banner{
+  background-color: black;
+  color: white;
+}
