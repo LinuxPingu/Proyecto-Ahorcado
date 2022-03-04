@@ -42,7 +42,7 @@
                 <p> Intentos Fallidos: <i class="fa-solid fa-heart-crack counterIcons"></i> </p>
               </div>
               <div class="col-12" style="text-align: center;">
-                <button type="button" class="btn btn-outline-success playButtons"><i class="fa-solid fa-play"></i></button>
+                <button id="btn-game-start" type="button" class="btn btn-outline-success playButtons"><i class="fa-solid fa-play"></i></button>
                 <button type="button" class="btn btn-outline-danger playButtons"><i class="fa-solid fa-stop"></i></button>
               </div>
 
@@ -52,7 +52,7 @@
             <p style="text-align: center;"> Palabra a Adivinar</p>
             <div class="container-fluid">
               <div class="col-12" style="text-align: center;">
-                <h2 class="guessWord"> E_EMP_O</h2>
+                <h2 id="h2-lngt-hint" class="guessWord"></h2>
               </div>
               <p style="text-align: center; margin-top: 7%;"> Intento Pasado </p>
               <div class="col-12" style="text-align: center;">
@@ -84,6 +84,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./JSON/wordBank.json"></script>
     <script src="./JS/gameFuntion.js"></script>
   </body>
 </html>
