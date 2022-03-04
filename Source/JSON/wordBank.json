@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "word": "ASEO",
+    "type": "4-letras",
+    "hint": "Limpieza o arreglo de una persona o una cosa",
+    "guessed": false
+  },
+  {
+    "id": 2,
+    "word": "GATO",
+    "type": "4-letras",
+    "hint": "Mamífero felino de tamaño generalmente pequeño",
+    "guessed": false
+  },
+  {
+    "id": 3,
+    "word": "CAER",
+    "type": "4-letras",
+    "hint": "Moverse [algo o alguien] desde arriba hacia abajo por la acción de su propio peso",
+    "guessed": false
+  },
+  {
+    "id": 4,
+    "word": "NUEZ",
+    "type": "4-letras",
+    "hint": "Fruto del nogal, comestible, de forma ovalada y dividido en dos mitades simétricas que encierran la semilla",
+    "guessed": false
+  },
+  {
+    "id": 5,
+    "word": "AVES",
+    "type": "4-letras",
+    "hint": "Animales vertebrado de sangre caliente, provisto de pico y alas",
+    "guessed": false
+  },
+  {
+    "id": 6,
+    "word": "ALOJO",
+    "type": "5-letras",
+    "hint": "Dar alojamiento a una persona",
+    "guessed": false
+  },
+  {
+    "id": 7,
+    "word": "APODO",
+    "type": "5-letras",
+    "hint": "Nombre que se da a una persona en vez del suyo propio",
+    "guessed": false
+  },
+  {
+    "id": 8,
+    "word": "CINES",
+    "type": "5-letras",
+    "hint": "Establecimientos destinados a la proyección de películas cinematográficas.",
+    "guessed": false
+  },
+  {
+    "id": 9,
+    "word": "DATOS",
+    "type": "5-letras",
+    "hint": "Información concreta sobre hechos, elementos, etc., que permite estudiarlos, analizarlos o conocerlos",
+    "guessed": false
+  },
+  {
+    "id": 10,
+    "word": "ECHOS",
+    "type": "5-letras",
+    "hint": "Tirar, poner o depositar o expulsar",
+    "guessed": false
+  },{
+    "id": 11,
+    "word": "BILLAR",
+    "type": "6-letras",
+    "hint": "Juego de habilidad que se practica sobre una mesa rectangular cubierta por fieltro verde",
+    "guessed": false
+  },
+  {
+    "id": 12,
+    "word": "AHORRA",
+    "type": "6-letras",
+    "hint": "Excedente de cualquier bien económico al final de un periodo",
+    "guessed": false
+  },
+  {
+    "id": 13,
+    "word": "CABEZA",
+    "type": "6-letras",
+    "hint": "Parte superior del cuerpo del hombre y superior o anterior del de muchos animales",
+    "guessed": false
+  },
+  {
+    "id": 14,
+    "word": "",
+    "type": "6-letras",
+    "hint": "",
+    "guessed": false
+  },
+  {
+    "id": 15,
+    "word": "HORDAS",
+    "type": "6-letras",
+    "hint": "Grupo de gente armada que no pertenece a un ejército regular",
+    "guessed": false
+  },
+  {
+    "id": 16,
+    "word": "BESTIAS",
+    "type": "7-letras",
+    "hint": "[persona] Que hace uso excesivo de la fuerza",
+    "guessed": false
+  },
+  {
+    "id": 17,
+    "word": "AVISPAS",
+    "type": "7-letras",
+    "hint": "Insecto de unos 15 mm de largo, cuerpo amarillo con franjas transversales negras",
+    "guessed": false
+  },
+  {
+    "id": 18,
+    "word": "ENCOGER",
+    "type": "7-letras",
+    "hint": "Disminuir el tamaño",
+    "guessed": false
+  },
+  {
+    "id": 19,
+    "word": "FUSILES",
+    "type": "7-letras",
+    "hint": "Armas de fuego individual y portátil que utiliza balas como munición y se compone de un cañón largo montado sobre un bastidor, un mecanismo de disparo y una culata",
+    "guessed": false
+  },
+  {
+    "id": 20,
+    "word": "HERIDOS",
+    "type": "7-letras",
+    "hint": "Grupo de personas lastimadas",
+    "guessed": false
+  }
+]

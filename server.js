@@ -11,6 +11,7 @@ app.use('/CSS', express.static(__dirname+'/Source/CSS'));
 app.use('/JS', express.static(__dirname+'/Source/JS'));
 app.use('/Icos', express.static(__dirname+'/Source/Icos'));
 app.use('/Images', express.static(__dirname+'/Source/Images'));
+app.use('/JSON', express.static(__dirname+'/Source/JSON'));
 
 app.use(bodyParser.urlencoded({extended:true}));
 
