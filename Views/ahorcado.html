@@ -18,60 +18,116 @@
     <section id="banner">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand cenfo-logo" href=""><img class="logo" src="./Images/logo-cenfotec-fb.png" alt="logo-cenfotec"> </a>
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                  <p class="banner-text"> Proyecto Final Javascript </p>
-              </li>
-            </ul>
+          <a class="navbar-brand cenfo-logo" href=""
+            ><img
+              class="logo"
+              src="./Images/logo-cenfotec-fb.png"
+              alt="logo-cenfotec"
+            />
+          </a>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <p class="banner-text">Proyecto Final Javascript</p>
+            </li>
+          </ul>
         </nav>
       </div>
     </section>
-    
+
     <section id="gameCompts">
       <div class="container-fluid">
         <div class="row">
           <div class="col-6 game-info">
-            <p style="text-align: center;"> Intentos </p>
+            <p style="text-align: center">Intentos</p>
             <div class="container-fluid">
-              <div class="col-12" style="text-align: center;">
-                <img class="ahorcado-Img" src="./Images/Ahorcado.png" alt="ahorcado">
+              <div class="col-12" style="text-align: center">
+                <img
+                  class="ahorcado-Img"
+                  src="./Images/Ahorcado.png"
+                  alt="ahorcado"
+                />
               </div>
               <div class="col-12">
-                <p id="fullHearts"> Numero de Intentos: </p>
-                <p> Intentos Fallidos:  </p>
+                <p id="fullHearts">Numero de Intentos:</p>
+                <p id="brokenHearts">Intentos Fallidos:</p>
               </div>
-              <div class="col-12" style="text-align: center;">
-                <button id="btn-game-start" type="button" class="btn btn-outline-success playButtons"><i class="fa-solid fa-play"></i></button>
-                <button type="button" class="btn btn-outline-danger playButtons"><i class="fa-solid fa-stop"></i></button>
+              <div class="col-12" style="text-align: center">
+                <button
+                  id="btn-game-start"
+                  type="button"
+                  class="btn btn-outline-success playButtons"
+                >
+                  <i class="fa-solid fa-play"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-danger playButtons"
+                  onclick="resetGame()"
+                >
+                  <i class="fa-solid fa-stop"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-warning playButtons"
+                  onclick="getHint()"
+                >
+                  <i class="fa-solid fa-question"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary playButtons"
+                  onclick="getScore()"
+                >
+                  <i class="fa-solid fa-trophy"></i>
+                </button>
               </div>
-
             </div>
           </div>
           <div id="wordsAndHints" class="col-6 game-words">
-            <p style="text-align: center;"> Palabra a Adivinar</p>
+            <p style="text-align: center">Palabra a Adivinar</p>
             <div class="container-fluid">
-              <div class="col-12" style="text-align: center;">
+              <div class="col-12" style="text-align: center">
                 <h2 id="h2-lngt-hint" class="guessWord"></h2>
               </div>
-              <p style="text-align: center; padding: 9% 0 0 0;"> Intento Pasado </p>
-              <div class="col-12" style="text-align: center;">
-                <h2 id="pastAttempt" class="guessWord"> </h2>
+              <p style="text-align: center; padding: 9% 0 0 0">
+                Intento Pasado
+              </p>
+              <div class="col-12" style="text-align: center">
+                <h2 id="pastAttempt" class="guessWord"></h2>
+              </div>
+              <div class="col-12" style="text-align: center">
+                <button
+                  type="button"
+                  class="btn btn-primary btnHistorial"
+                  onclick="viewHistory()"
+                >
+                  Historial
+                </button>
               </div>
             </div>
           </div>
           <div id="interaction" class="col-12 game-interaction">
-            <p> Ingresar Intento</p>
+            <p>Ingresar Intento</p>
             <div class="input-group mb-3 guessGroup">
-              <input id="userGuess" type="text" placeholder="Ingresa una letra o la palabra a adivinar" class="form-control inputGuess">
+              <input
+                id="userGuess"
+                type="text"
+                placeholder="Ingresa una letra o la palabra a adivinar"
+                class="form-control inputGuess"
+              />
               <div class="input-group-append">
-                <button class="btn btn-outline-secondary guessButton" onclick="guessWord()" type="button">Ok</button>
+                <button
+                  class="btn btn-outline-secondary guessButton"
+                  onclick="guessWord()"
+                  type="button"
+                >
+                  Ok
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </section>
 
     <script
