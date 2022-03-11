@@ -47,7 +47,7 @@ body{
 }
 
 .guessWord{
-    margin: 5% 0 2% 0;
+    margin: 0;
 }
 
 .playButtons{
@@ -55,7 +55,7 @@ body{
 }
 
 .guessGroup{
-    margin: 5% 0 0 0;
+    margin: 4% 0 0 0;
 }
 
 #banner{

@@ -38,8 +38,8 @@
                 <img class="ahorcado-Img" src="./Images/Ahorcado.png" alt="ahorcado">
               </div>
               <div class="col-12">
-                <p> Numero de Intentos: <i class="fa-solid fa-heart counterIcons"></i> <i class="fa-solid fa-heart counterIcons"></i> <i class="fa-solid fa-heart counterIcons"></i> </p>
-                <p> Intentos Fallidos: <i class="fa-solid fa-heart-crack counterIcons"></i> </p>
+                <p id="fullHearts"> Numero de Intentos: </p>
+                <p> Intentos Fallidos:  </p>
               </div>
               <div class="col-12" style="text-align: center;">
                 <button id="btn-game-start" type="button" class="btn btn-outline-success playButtons"><i class="fa-solid fa-play"></i></button>
@@ -54,18 +54,18 @@
               <div class="col-12" style="text-align: center;">
                 <h2 id="h2-lngt-hint" class="guessWord"></h2>
               </div>
-              <p style="text-align: center; margin-top: 7%;"> Intento Pasado </p>
+              <p style="text-align: center; padding: 9% 0 0 0;"> Intento Pasado </p>
               <div class="col-12" style="text-align: center;">
-                <h2 class="guessWord"> L </h2>
+                <h2 id="pastAttempt" class="guessWord"> </h2>
               </div>
             </div>
           </div>
           <div id="interaction" class="col-12 game-interaction">
             <p> Ingresar Intento</p>
             <div class="input-group mb-3 guessGroup">
-              <input type="text" placeholder="Ingresa una letra o la palabra a adivinar" class="form-control inputGuess">
+              <input id="userGuess" type="text" placeholder="Ingresa una letra o la palabra a adivinar" class="form-control inputGuess">
               <div class="input-group-append">
-                <button class="btn btn-outline-secondary guessButton" type="button">Ok</button>
+                <button class="btn btn-outline-secondary guessButton" onclick="guessWord()" type="button">Ok</button>
               </div>
             </div>
           </div>
