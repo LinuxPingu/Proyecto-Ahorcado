@@ -92,7 +92,6 @@ const addBrokenHearts = (failed) => {
 
 const checkIfGuessed = (guess) => {
   let isGuessed = false;
-
   if (guessHistory.length === 0) {
     isGuessed = false;
   } else {
